@@ -7,7 +7,7 @@ img_rgb = cv2.imread('o.png')
 img_gray = cv2.cvtColor(img_rgb, cv2.COLOR_BGR2GRAY)
 
 #Loading the image for template matching
-template = cv2.imread('t3.png',0)
+template = cv2.imread('t.png',0)
 
 #Specifying the boundary dimensions
 w, h = template.shape[::-1]
